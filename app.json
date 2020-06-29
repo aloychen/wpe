@@ -1,0 +1,30 @@
+{
+	"title": "sdddd",
+	"name": "sdddd",
+	"desc": "sdddd",
+	"projectId": "sdddd",
+	"appInfo": {
+		"appId": "sdsdf",
+		"masterKey": "846da140a4a0456a9b4449cd1fe15bc0"
+	},
+	"auth": {
+		"page": {
+			"default": {
+				"type": "public"
+			},
+			"list": {
+				"type": "func",
+				"validators": [
+					"list_auth"
+				]
+			}
+		}
+	},
+	"version": "1.0.0",
+	"indexPage": "home",
+	"server": {
+		"host":"localhost",
+		"port":"1024",
+		"rtx":"nerohua wuji"
+	}
+}

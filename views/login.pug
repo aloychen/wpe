@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title}
+    div
+        form(method="post" action="/users/login")
+            | 用户名：
+            input(name="name" type="text" value="" placeholder="请输入用户名")
+            br
+            | 密码：
+            input(name="pwd" type="password" value="" placeholder="请输入密码")
+            br
+            |
+            input(name="" type="submit" value="登录")
+        div 还没有账号,立即
+            a(href="/regist") 注册
